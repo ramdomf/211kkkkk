@@ -1,0 +1,66 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Tahoma";
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+span,
+div,
+p,
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  color: #000;
+  list-style: none;
+  text-decoration: none;
+  font-weight: normal;
+}
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.menu-container .overlay {
+  display: none;
+}
+.menu-container .mobile-nav {
+  display: none;
+}
+.header {
+  background-color: #480299;
+  padding: 20px 0;
+}
+.header .header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .header-content .logo img {
+  height: 54px;
+}
+.header .header-content .menu li {
+  display: inline-block;
+  padding-right: 25px;
+}
+.header .header-content .menu li:last-child {
+  padding-right: 0;
+}
+.header .header-content .menu li a {
+  color: #fff;
+  font-size: 16px;
+}
+.header .header-content .menu li.mobile {
+  display: none;
+}
+.header .header-content .menu li.mobile span {
+  color: #fff;
+  font-size: 26px;
+}

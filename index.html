@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/media.css">
+	<title>Mobile menu</title>
+</head>
+<body>
+
+	<!-- Mobile menu container -->
+
+	<div class="menu-container">
+		<div class="overlay" data-mobile="close"></div>
+		<div class="mobile-nav">
+			<span class="fas fa-times" data-mobile="close"></span>
+			<div class="mobile-section">
+				<h6>Menu</h6>
+				<ul class="mobile-menu">
+					<li><a href="">About Us</a></li>
+					<li><a href="">Our Products</a></li>
+					<li><a href="">Our Prices</a></li>
+					<li><a href="">Jobs</a></li>
+					<li><a href="">Blog</a></li>
+					<li><a href="">Contacts</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<!-- End mobile menu -->
+
+	<div class="header">
+		<div class="wrapper">
+			<div class="header-content">
+				<div class="logo">
+					<img src="img/logo.svg" alt="">
+				</div>
+				<ul class="menu">
+					<li><a href="">About Us</a></li>
+					<li><a href="">Our Products</a></li>
+					<li><a href="">Our Prices</a></li>
+					<li><a href="">Jobs</a></li>
+					<li><a href="">Blog</a></li>
+					<li><a href="">Contacts</a></li>
+					<li data-mobile="open" class="mobile"><span class="fas fa-hamburger"></span></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	
+	<script src="js/main.js"></script>
+</body>
+</html>
